@@ -1,0 +1,90 @@
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 10% 0;
+  background: #030f12;
+  color: #fff;
+ 
+}
+.section-text{
+  flex: 50%;
+
+}
+.contact-info{
+  flex: 50%;
+
+}
+h2 {
+    font-size: 2.8vw;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 85px ;
+}
+  
+p {
+    text-align: justify;
+    margin: auto 2.5em;
+    line-height: 1.8em;
+    padding-right: 2em;
+    padding-left: 3em;
+  
+  }
+
+.form-box {
+  padding-top: 1em;
+ 
+}
+
+.form-entry{
+  display: block;
+  padding: 0.8em 0;
+}
+
+.txt-box {
+  margin-top: 0.3em;
+  width: 80%;
+  padding: 0.7em 0;
+  border-radius: 5px;
+  border: 2px transparent;
+
+}
+form .btn {
+    text-align: center;
+    background-color: #e6e8e8;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: inherit;
+    border: 2px solid #eaeaea;
+    box-shadow: 0px 0px 10px 1px #29393e;
+    border-radius: 2px;
+    padding: 0.7em; 
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    section {   
+      flex-direction: column;  
+    }
+   
+    .contact-info{ 
+      padding-left: 80px;
+      padding-top: 30px;
+    }
+    p {
+      font-size: 1.8em;
+      padding-left: 30px;
+    }
+  
+  }  
+  @media screen and (max-width: 700px) {
+    p{
+      padding-left: 40px;
+    }
+  }
+
